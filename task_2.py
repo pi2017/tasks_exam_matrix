@@ -1,4 +1,9 @@
 """
+Version 1.0
+Autor: Oleksii Savchenko
+Kiev
+2018
+-------
 Task 2:
 -------
 Implement an algorithm to print all valid (e.g., properly opened and closed)

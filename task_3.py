@@ -1,4 +1,9 @@
 """
+Version 1.0
+Autor: Oleksii Savchenko
+Kiev
+2018
+-------
 Task 3:
 -------
 Implement the application which generates all possible combinations for a given array elements

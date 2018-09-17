@@ -1,5 +1,9 @@
 """
-
+Version 1.0
+Autor: Oleksii Savchenko
+Kiev
+2018
+-------
 Task 1:
 -------
 Find the longest palindrome in a given string.
