@@ -31,4 +31,4 @@ def combinations(iterable, r):
 
 out = combinations(['a', 'b', 'c'], 2)
 
-print(list(out))
+print('OUTPUT:', list(out))
