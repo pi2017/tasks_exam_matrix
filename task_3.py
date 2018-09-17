@@ -11,8 +11,7 @@ Result: [["a"], ["a","b"], ["a","b","c"], ["a","c"], ["a","c","b"], ["b"], ["b",
 
 
 def combinations(iterable, r):
-    # combinations('ABCD', 2) --> AB AC AD BC BD CD
-    # combinations(range(4), 3) --> 012 013 023 123
+
     pool = tuple(iterable)
     n = len(pool)
     if r > n:
