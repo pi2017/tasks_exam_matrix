@@ -29,6 +29,6 @@ def combinations(iterable, r):
             indices[j] = indices[j-1] + 1
         yield tuple(pool[i] for i in indices)
 
-aa = combinations(['a','b','c'],2)
+out = combinations(['a','b','c'],2)
 
-print(list(aa))
+print(list(out))
