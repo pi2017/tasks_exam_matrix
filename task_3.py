@@ -11,7 +11,6 @@ Result: [["a"], ["a","b"], ["a","b","c"], ["a","c"], ["a","c","b"], ["b"], ["b",
 
 
 def combinations(iterable, r):
-
     pool = tuple(iterable)
     n = len(pool)
     if r > n:
@@ -25,10 +24,11 @@ def combinations(iterable, r):
         else:
             return
         indices[i] += 1
-        for j in range(i+1, r):
-            indices[j] = indices[j-1] + 1
+        for j in range(i + 1, r):
+            indices[j] = indices[j - 1] + 1
         yield tuple(pool[i] for i in indices)
 
-out = combinations(['a','b','c'],2)
+
+out = combinations(['a', 'b', 'c'], 2)
 
 print(list(out))
