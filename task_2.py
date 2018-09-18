@@ -17,9 +17,9 @@ Output: ((())), (()()), (())(), ()(()), ()()()
 from itertools import permutations
 
 
-def valid(n):
+def valid(j):
     open, close = 0, 0
-    for i in n:
+    for i in j:
         if i == '(':
             open += 1
         elif i == ')':
@@ -29,8 +29,8 @@ def valid(n):
     return True
 
 
-def paren(n):
-    perms = set(''.join(p) for p in permutations('(' * n + ')' * n))
+def paren(j):
+    perms = set(''.join(p) for p in permutations('(' * j + ')' * j))
     return [s for s in perms if valid(s)]
 
 
